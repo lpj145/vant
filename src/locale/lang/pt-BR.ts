@@ -1,0 +1,80 @@
+export default {
+  name: 'Nome',
+  tel: 'Telefone',
+  save: 'Salvar',
+  confirm: 'Confirmar',
+  cancel: 'Cancelar',
+  delete: 'Deletar',
+  complete: 'Completo',
+  loading: 'Carregando...',
+  telEmpty: 'Preenchar o número do telefone',
+  nameEmpty: 'Preencha o nome',
+  nameInvalid: 'Nome inválido',
+  confirmDelete: 'Você tem certeza que deseja continuar ?',
+  telInvalid: 'Número de telefone inválido',
+  vanCalendar: {
+    end: 'Fim',
+    start: 'Início',
+    title: 'Calendário',
+    startEnd: 'Início/Fim',
+    weekdays: ['Dom', 'Seg', 'Ter', 'Qua', 'Qui', 'Sex', 'Sab'],
+    monthTitle: (year: number, month: number) => `${year}/${month}`,
+    rangePrompt: (maxRange: number) => `Deve ser maior que ${maxRange} dias`,
+  },
+  vanCascader: {
+    select: 'Selecione',
+  },
+  vanContactCard: {
+    addText: 'Adicionar info. de contato',
+  },
+  vanContactList: {
+    addText: 'Adicionar novo contato',
+  },
+  vanPagination: {
+    prev: 'Anterior',
+    next: 'Próximo',
+  },
+  vanPullRefresh: {
+    pulling: 'Pull to refresh...',
+    loosing: 'Loose to refresh...',
+  },
+  vanSubmitBar: {
+    label: 'Total：',
+  },
+  vanCoupon: {
+    unlimited: 'Ilimitado',
+    discount: (discount: number) => `${discount * 10}% off`,
+    condition: (condition: number) => `At least ${condition}`,
+  },
+  vanCouponCell: {
+    title: 'Cupom',
+    tips: 'Sem cupoms',
+    count: (count: number) => `Você tem ${count} cupoms`,
+  },
+  vanCouponList: {
+    empty: 'Sem cupoms',
+    exchange: 'Mudar',
+    close: 'Encerrado',
+    enable: 'Disponível',
+    disabled: 'Vencido',
+    placeholder: 'Código do cupom',
+  },
+  vanAddressEdit: {
+    area: 'Area',
+    postal: 'Cep',
+    areaEmpty: 'Por favor, selecione uma região para receber.',
+    addressEmpty: 'Endereço não pode ser vázio',
+    postalEmpty: 'Cep incorreto',
+    defaultAddress: 'Seu endereço padrão',
+    telPlaceholder: 'Telefone',
+    namePlaceholder: 'Nome',
+    areaPlaceholder: 'Area',
+  },
+  vanAddressEditDetail: {
+    label: 'Endereço',
+    placeholder: 'Setor sete',
+  },
+  vanAddressList: {
+    add: 'Adicionar novo endereço',
+  },
+};
